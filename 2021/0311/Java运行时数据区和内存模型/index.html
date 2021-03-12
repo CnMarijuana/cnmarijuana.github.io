@@ -31,10 +31,10 @@
 <meta property="og:description" content="运行时数据区是指对 JVM 运行过程中涉及到的内存根据功能、目的进行的划分，而内存模型可以理解为对内存进行存取操作的过程定义。总是有人望文生义的将前者描述为 “Java 内存模型”，最近在阅读《深入理解 Java 虚拟机》之后对二者加深了部分理解，于是写一篇相关内容的学习总结。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-03-11T14:20:46.000Z">
-<meta property="article:modified_time" content="2021-03-11T14:26:07.347Z">
+<meta property="article:modified_time" content="2021-03-12T13:56:10.505Z">
 <meta property="article:author" content="陈世龙">
 <meta property="article:tag" content="JVM">
-<meta property="article:tag" content="单例">
+<meta property="article:tag" content="设计模式">
 <meta name="twitter:card" content="summary">
 
 
@@ -129,9 +129,9 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">6</span></a></li>
-        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">7</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">6</span></a></li>
   </ul>
 </nav>
 
@@ -178,20 +178,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -440,7 +440,7 @@ threadOne -&gt;&gt; threadOne : INVOKESPECIAL
 
           <div class="post-tags">
               <a href="/tags/JVM/" rel="tag"># JVM</a>
-              <a href="/tags/%E5%8D%95%E4%BE%8B/" rel="tag"># 单例</a>
+              <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="tag"># 设计模式</a>
           </div>
 
         
@@ -452,6 +452,9 @@ threadOne -&gt;&gt; threadOne : INVOKESPECIAL
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2021/0312/%E5%86%8D%E7%9C%8BJava%E5%8D%95%E4%BE%8B/" rel="next" title="再看Java单例">
+                  再看Java单例 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>

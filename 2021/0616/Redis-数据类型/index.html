@@ -25,19 +25,19 @@
   </script>
 <meta name="description" content="Redis 可以理解为一个大号的 Map，其中所有的数据都采用 key:value 的形式维护，在 Redis 中，一个 key 总是对应一个 value。其中 key 永远是字符串，而一般提到 Redis 的数据类型，指的是其存储的 value 的数据类型。下面介绍 Redis 常见的数据类型，并简单介绍常见的相关指令。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Redis 数据结构">
-<meta property="og:url" content="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.html">
+<meta property="og:title" content="Redis 数据类型">
+<meta property="og:url" content="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/index.html">
 <meta property="og:site_name" content="CSL&#39;Blog">
 <meta property="og:description" content="Redis 可以理解为一个大号的 Map，其中所有的数据都采用 key:value 的形式维护，在 Redis 中，一个 key 总是对应一个 value。其中 key 永远是字符串，而一般提到 Redis 的数据类型，指的是其存储的 value 的数据类型。下面介绍 Redis 常见的数据类型，并简单介绍常见的相关指令。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-06-16T15:44:41.000Z">
-<meta property="article:modified_time" content="2021-06-16T15:51:34.201Z">
+<meta property="article:modified_time" content="2021-06-19T15:50:37.098Z">
 <meta property="article:author" content="陈世龙">
 <meta property="article:tag" content="Redis">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+<link rel="canonical" href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">
 
 
 <script class="page-configurations">
@@ -49,7 +49,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>Redis 数据结构 | CSL'Blog</title>
+<title>Redis 数据类型 | CSL'Blog</title>
   
 
 
@@ -238,7 +238,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+    <link itemprop="mainEntityOfPage" href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.jpg">
@@ -251,7 +251,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Redis 数据结构
+          Redis 数据类型
         </h1>
 
         <div class="post-meta-container">
@@ -503,7 +503,7 @@ key --&gt; set
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" title="Redis 数据结构">https://cncsl.github.io/2021/0616/Redis-数据结构/</a>
+      <a href="https://cncsl.github.io/2021/0616/Redis-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" title="Redis 数据类型">https://cncsl.github.io/2021/0616/Redis-数据类型/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
